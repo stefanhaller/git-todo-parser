@@ -1,4 +1,4 @@
-module github.com/fsmiamoto/git-todo-parser
+module github.com/stefanhaller/git-todo-parser
 
 go 1.13
 
