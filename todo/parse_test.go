@@ -28,6 +28,7 @@ func TestParse(t *testing.T) {
 			{Command: Label, Label: "theRef"},
 			{Command: UpdateRef, Ref: "refs/heads/my-branch"},
 			{Command: Merge, Commit: "6f5e4d", Flag: "-C", Label: "report-a-bug", Msg: "Merge 'report-a-bug'"},
+			{Command: Merge, Commit: "6f5e4d", Flag: "-C", Label: "report-a-bug"},
 			{Command: Fixup, Commit: "abbaceef", Flag: "-C"},
 			{Command: Break},
 			{Command: NoOp},
